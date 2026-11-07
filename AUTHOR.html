@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Юсупова Ангелина Алексеевна — Горизонты: Диалог наук</title>
+<title>Букаев Максим Валерьевич — Горизонты: Диалог наук</title>
 
 <script>
 /* При каждом открытии страницы всегда включается тёмная тема */
@@ -89,7 +89,7 @@ button{font-family:inherit;color:inherit;background:none;border:none;cursor:poin
 @media(max-width:720px){.author-layout{grid-template-columns:1fr;gap:20px}}
 .author-photo{margin:0;aspect-ratio:3/4;position:relative;overflow:hidden;background:var(--bg3);border:1px solid var(--line2);border-radius:2px;display:grid;place-items:center}
 .author-photo .ph{font-family:var(--f-mono);font-size:2.4rem;letter-spacing:.1em;color:var(--faint)}
-.author-photo .pic{position:absolute;inset:0;background-image:url("avatar.jpg");background-size:cover;background-position:top center;background-repeat:no-repeat}
+.author-photo .pic{position:absolute;inset:0;background-size:cover;background-position:top center;background-repeat:no-repeat;transition:background-image .3s}:root[data-theme="dark"] .author-photo .pic{background-image:url("avatar-dark.jpg")}:root[data-theme="light"] .author-photo .pic{background-image:url("avatar-light.jpg")}
 @media(max-width:720px){.author-photo{max-width:240px}}
 
 .badge{display:inline-block;font-family:var(--f-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;padding:4px 10px;border:1px solid currentColor;border-radius:2px;vertical-align:middle;color:var(--cyan)}
@@ -137,42 +137,42 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--cyan);outline-offse
     <article aria-labelledby="name">
       <header class="sec-head">
         <div class="sec-meta">
-          <b>AUTHOR</b> / yusupova-aa<br>
+          <b>AUTHOR</b> / bukaev-mv<br>
           <span class="badge">Автор</span>
         </div>
-        <h1 class="sec-title" id="name">Юсупова Ангелина Алексеевна</h1>
+        <h1 class="sec-title" id="name">Букаев Максим Валерьевич</h1>
       </header>
 
       <div class="author-layout">
         <figure class="author-photo">
-          <span class="ph" aria-hidden="true">ЮА</span>
-          <div class="pic" role="img" aria-label="Юсупова Ангелина Алексеевна, студент, ИМЭС"></div>
+          <span class="ph" aria-hidden="true">МВ</span>
+          <div class="pic" role="img" aria-label="Букаев Максим Валерьевич, студент, ИМЭС"></div>
         </figure>
 
         <div>
           <section class="fs" aria-labelledby="pos-h">
             <h2 class="fs-head" id="pos-h">Должность и организация</h2>
             <div class="fs-body">
-              <div class="cell"><span class="k">Должность</span>Студент</div>
-              <div class="cell"><span class="k">Организация</span>ИМЭС</div>
+              <div class="cell"><span class="k">Должность</span>Тех. специалист</div>
+              <div class="cell"><span class="k">Организация</span>МегаФон</div>
             </div>
           </section>
 
           <section class="fs" aria-labelledby="bio-h">
             <h2 class="fs-head" id="bio-h">Биография</h2>
             <div class="fs-body one">
-              <p class="bio">Студентка ИМЭС. Интересуется веб-технологиями и проектированием информационных систем. Принимает участие в разработке сайта журнала «Горизонты: Диалог наук».</p>
+              <p class="bio">Старший специалист технической поддержи ПАО Меафон. Python разаботчик. Двукратный призер Sber Future Today и выпускник Института Международных Экономических Связей (ИМЭС).</p>
             </div>
           </section>
 
           <section class="fs" aria-labelledby="cont-h">
             <h2 class="fs-head" id="cont-h">Контакты</h2>
-            <div class="fs-body one"><p class="empty">Контакты не указаны</p></div>
+            <div class="fs-body one"><p class="empty">Контакты: тел +7 999 999 8007</p></div>
           </section>
 
           <section class="fs" aria-labelledby="pubs-h">
             <h2 class="fs-head" id="pubs-h">Публикации</h2>
-            <div class="fs-body one"><p class="empty">Публикации пока отсутствуют</p></div>
+            <div class="fs-body one"><p class="empty">Публикации скрыты пользователем</p></div>
           </section>
         </div>
       </div>
